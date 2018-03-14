@@ -27,6 +27,16 @@ console.log(result);
 
 
 //3
+const array = ["x", "xx", "xxx", "xxxx", "xxxxx"]
+for (i= 0; i < array.length; i++) {
+console.log(array[i])
+}
+
+
+
+
+
+//4
 
 for (let i=99; i >= 1; i--) {
 	console.log(i + " bottles of beer on the wall, " + i + " bottles of beer. Take one down, pass it around, " + (i-1) + " bottles of beer on the wall.");
